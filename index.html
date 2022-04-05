@@ -10,7 +10,7 @@
   <body>
     <section class="game">
       <div class="score">
-        <div class="player score">
+        <div class="player-score">
           <h2>Player</h2>
           <p>0</p>
         </div>
@@ -19,22 +19,25 @@
           <p>0</p>
         </div>
       </div>
+
       <div class="intro">
         <h2>Rock Paper and Scissors</h2>
+        <button>Let's play</button>
+      </div>
+
+      <div class="match fadeOut">
+        <h2 class="winner">Choose an option</h2>
+        <div class="hands">
+          <img class="player-hand" src="./assets/rock.png" alt="" />
+          <img class="computer-hand" src="./assets/rock.png" alt="" />
+        </div>
+        <div class="options">
+          <button class="rock">rock</button>
+          <button class="paper">paper</button>
+          <button class="scissors">scissors</button>
+        </div>
       </div>
     </section>
-    <div class="match">
-      <div class="winner">Choose and option</div>
-      <div class="hands">
-        <img class="player-hand" src="./assets/rock.png" alt="" />
-        <img class="computer-hand" src="./assets/rock.png" alt="" />
-      </div>
-    </div>
-    <div class="options">
-      <button class="rock">rock</button>
-      <button class="paper">paper</button>
-      <button class="scissors">scissors</button>
-    </div>
 
     <script src="./app.js"></script>
   </body>
